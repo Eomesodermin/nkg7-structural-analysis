@@ -1,0 +1,167 @@
+{
+  "af3_C2": {
+    "min_radius_A": 0.01,
+    "n_points": 607,
+    "z_at_min": 12.2,
+    "median_radius_A": 2.03,
+    "axis_len_A": 60.6,
+    "pore_verdict": "occluded",
+    "predictor": "af3",
+    "N": 2,
+    "iptm": 0.22
+  },
+  "af3_C3": {
+    "min_radius_A": 0.12,
+    "n_points": 1105,
+    "z_at_min": -4.7,
+    "median_radius_A": 4.0,
+    "axis_len_A": 110.4,
+    "pore_verdict": "occluded",
+    "predictor": "af3",
+    "N": 3,
+    "iptm": 0.2
+  },
+  "af3_C4": {
+    "min_radius_A": 1.84,
+    "n_points": 1153,
+    "z_at_min": -0.1,
+    "median_radius_A": 5.27,
+    "axis_len_A": 115.2,
+    "pore_verdict": "open_water",
+    "predictor": "af3",
+    "N": 4,
+    "iptm": 0.16
+  },
+  "af3_C5": {
+    "min_radius_A": 3.04,
+    "n_points": 1049,
+    "z_at_min": 18.3,
+    "median_radius_A": 7.72,
+    "axis_len_A": 104.8,
+    "pore_verdict": "open_water",
+    "predictor": "af3",
+    "N": 5,
+    "iptm": 0.16
+  },
+  "af3_C6": {
+    "min_radius_A": 2.89,
+    "n_points": 1027,
+    "z_at_min": 14.3,
+    "median_radius_A": 12.94,
+    "axis_len_A": 102.6,
+    "pore_verdict": "open_water",
+    "predictor": "af3",
+    "N": 6,
+    "iptm": 0.16
+  },
+  "boltz_C2": {
+    "min_radius_A": 0.56,
+    "n_points": 275,
+    "z_at_min": 0.4,
+    "median_radius_A": 0.89,
+    "axis_len_A": 27.4,
+    "pore_verdict": "occluded",
+    "predictor": "boltz",
+    "N": 2,
+    "iptm": 0.629
+  },
+  "boltz_C3": {
+    "min_radius_A": 0.46,
+    "n_points": 567,
+    "z_at_min": -1.1,
+    "median_radius_A": 1.48,
+    "axis_len_A": 56.6,
+    "pore_verdict": "occluded",
+    "predictor": "boltz",
+    "N": 3,
+    "iptm": 0.559
+  },
+  "boltz_C4": {
+    "min_radius_A": 0.69,
+    "n_points": 959,
+    "z_at_min": -14.6,
+    "median_radius_A": 4.19,
+    "axis_len_A": 95.8,
+    "pore_verdict": "occluded",
+    "predictor": "boltz",
+    "N": 4,
+    "iptm": 0.544
+  },
+  "boltz_C5": {
+    "min_radius_A": 0.63,
+    "n_points": 797,
+    "z_at_min": -14.1,
+    "median_radius_A": 1.88,
+    "axis_len_A": 79.6,
+    "pore_verdict": "occluded",
+    "predictor": "boltz",
+    "N": 5,
+    "iptm": 0.335
+  },
+  "boltz_C6": {
+    "min_radius_A": 0.0,
+    "n_points": 747,
+    "z_at_min": 14.1,
+    "median_radius_A": 1.72,
+    "axis_len_A": 74.6,
+    "pore_verdict": "occluded",
+    "predictor": "boltz",
+    "N": 6,
+    "iptm": 0.241
+  },
+  "chai_C2": {
+    "min_radius_A": 0.0,
+    "n_points": 81,
+    "z_at_min": -2.0,
+    "median_radius_A": 0.55,
+    "axis_len_A": 8.0,
+    "pore_verdict": "occluded",
+    "predictor": "chai",
+    "N": 2,
+    "iptm": 0.197
+  },
+  "chai_C3": {
+    "min_radius_A": 2.77,
+    "n_points": 585,
+    "z_at_min": -10.1,
+    "median_radius_A": 4.11,
+    "axis_len_A": 58.4,
+    "pore_verdict": "open_water",
+    "predictor": "chai",
+    "N": 3,
+    "iptm": 0.258
+  },
+  "chai_C4": {
+    "min_radius_A": 0.41,
+    "n_points": 863,
+    "z_at_min": 2.4,
+    "median_radius_A": 2.07,
+    "axis_len_A": 86.2,
+    "pore_verdict": "occluded",
+    "predictor": "chai",
+    "N": 4,
+    "iptm": 0.22
+  },
+  "chai_C5": {
+    "min_radius_A": 2.21,
+    "n_points": 1101,
+    "z_at_min": -27.7,
+    "median_radius_A": 4.69,
+    "axis_len_A": 110.0,
+    "pore_verdict": "open_water",
+    "predictor": "chai",
+    "N": 5,
+    "iptm": 0.393
+  },
+  "chai_C6": {
+    "min_radius_A": 2.07,
+    "n_points": 899,
+    "z_at_min": -19.5,
+    "median_radius_A": 5.59,
+    "axis_len_A": 89.8,
+    "pore_verdict": "open_water",
+    "predictor": "chai",
+    "N": 6,
+    "iptm": 0.41
+  }
+}

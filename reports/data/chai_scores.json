@@ -1,0 +1,42 @@
+[
+  {
+    "N": 2,
+    "model_idx": 1,
+    "iptm": 0.197,
+    "ptm": 0.558,
+    "aggregate": 0.269,
+    "clash": false
+  },
+  {
+    "N": 3,
+    "model_idx": 4,
+    "iptm": 0.258,
+    "ptm": 0.486,
+    "aggregate": 0.304,
+    "clash": false
+  },
+  {
+    "N": 4,
+    "model_idx": 2,
+    "iptm": 0.22,
+    "ptm": 0.4,
+    "aggregate": 0.256,
+    "clash": false
+  },
+  {
+    "N": 5,
+    "model_idx": 1,
+    "iptm": 0.393,
+    "ptm": 0.509,
+    "aggregate": 0.416,
+    "clash": false
+  },
+  {
+    "N": 6,
+    "model_idx": 4,
+    "iptm": 0.41,
+    "ptm": 0.507,
+    "aggregate": 0.43,
+    "clash": false
+  }
+]

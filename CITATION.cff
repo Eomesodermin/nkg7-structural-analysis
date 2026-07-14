@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "NKG7 Structural Analysis"
+message: "If you use this analysis, please cite it as below."
+type: dataset
+authors:
+  - family-names: Corvino
+    given-names: Dillon
+    email: dcorvino@uni-bonn.de
+    affiliation: "University of Bonn"
+abstract: >-
+  In-silico structural and evolutionary characterisation of NKG7, testing the
+  hypothesis that it functions as an ion channel. A tiered, gated computational
+  campaign (structural-homology triage; three-predictor homo-oligomer prediction
+  with reference-HOLE pore analysis) finds NKG7 is a claudin/Ca_V-gamma tetraspan
+  that self-associates but forms no conducting pore, consistent with a
+  scaffold / auxiliary-modulator role.
+keywords:
+  - NKG7
+  - structural bioinformatics
+  - ion channel
+  - AlphaFold3
+  - Boltz-2
+  - Chai-1
+license: MIT
+date-released: 2026-07-14

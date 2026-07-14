@@ -1,0 +1,28 @@
+{
+  "workstream": "Tier 0A \u2014 Foldseek structural homology",
+  "method": "foldseek easy-search TM-align (--alignment-type 1) on marvin, NKG7 human Q16617 + mouse Q99PA5 AF monomers vs PDB100 and AFDB/Swiss-Prot; top hits' matched-chain molecule names resolved via RCSB data API.",
+  "hits_pdb100_human": 589,
+  "hits_pdb100_mouse": 628,
+  "top20_classification_human": {
+    "non-channel tetraspan (claudin; paracellular)": 10,
+    "channel_auxiliary_subunit (Ca_V/TARP gamma)": 10
+  },
+  "tmscore_top20_range": [
+    0.851,
+    0.904
+  ],
+  "key_findings": [
+    "NKG7 fold's entire top structural neighborhood (TM-score ~0.87-0.90) is the claudin/PMP-22 + Ca_V/TARP-gamma tetraspan superfamily.",
+    "Top-20 PDB100 hits (human): 10 claudins (claudin-3/4/9/15/19) + 10 Ca_V/TARP gamma auxiliary subunits (CACNG1/2/3/5, stargazin/TARP; incl. GluA2-gamma chimeras whose MATCHED chain is the gamma subunit).",
+    "CRITICAL rigor: every 'calcium channel' hit matches the gamma AUXILIARY subunit, NOT a pore. 3jbr matched chain E = CACNG1 (Ca_V1.1 gamma), NOT the alpha1S pore (chain A). 9b5z matched chain F = CACNG2, NOT GluA2.",
+    "ZERO hits to a bona-fide standalone transmembrane ion-CONDUCTING channel pore (all 20 human top hits are either paracellular claudins or non-conducting Ca_V/TARP-gamma auxiliary subunits).",
+    "Sequence identity to all hits is low (fident ~0.10-0.19) \u2014 similarity is fold-level, consistent with distant superfamily membership, not close homology.",
+    "Mouse replicate reproduces the human result."
+  ],
+  "channel_hypothesis_bearing": "mixed (confirms channel-ADJACENT fold family; but the specific structural analogs are all non-conducting auxiliary subunits / paracellular tetraspans, not pore-formers)",
+  "gate_recommendation": "escalate \u2014 fold confirms the claudin/Ca_V-gamma tetraspan architecture (Tier-1 oligomer search warranted), but the negative (no pore-forming-channel structural analog) foreshadows a likely scaffold/auxiliary role.",
+  "top20_classification_mouse": {
+    "channel_auxiliary_subunit (Ca_V/TARP gamma)": 11,
+    "non-channel tetraspan (claudin; paracellular)": 9
+  }
+}

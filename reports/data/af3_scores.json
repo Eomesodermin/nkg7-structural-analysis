@@ -1,0 +1,37 @@
+[
+  {
+    "N": 2,
+    "file": "nkg7_c2_seed-1_sample-1_summary_confidences.json",
+    "iptm": 0.22,
+    "ptm": 0.33,
+    "ranking_score": 0.26
+  },
+  {
+    "N": 3,
+    "file": "nkg7_c3_seed-1_sample-3_summary_confidences.json",
+    "iptm": 0.2,
+    "ptm": 0.3,
+    "ranking_score": 0.24
+  },
+  {
+    "N": 4,
+    "file": "nkg7_c4_seed-1_sample-0_summary_confidences.json",
+    "iptm": 0.16,
+    "ptm": 0.26,
+    "ranking_score": 0.19
+  },
+  {
+    "N": 5,
+    "file": "nkg7_c5_seed-1_sample-0_summary_confidences.json",
+    "iptm": 0.16,
+    "ptm": 0.26,
+    "ranking_score": 0.18
+  },
+  {
+    "N": 6,
+    "file": "nkg7_c6_seed-1_sample-0_summary_confidences.json",
+    "iptm": 0.16,
+    "ptm": 0.25,
+    "ranking_score": 0.2
+  }
+]

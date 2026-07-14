@@ -1,0 +1,82 @@
+[
+  {
+    "predictor": "boltz",
+    "N": 2,
+    "n_chains": 2,
+    "centroid_radial_mean_A": 11.49,
+    "radial_cv": 0.0,
+    "angular_cv": 0.0
+  },
+  {
+    "predictor": "af3",
+    "N": 2,
+    "n_chains": 2,
+    "centroid_radial_mean_A": 10.74,
+    "radial_cv": 0.0,
+    "angular_cv": 0.0
+  },
+  {
+    "predictor": "boltz",
+    "N": 3,
+    "n_chains": 3,
+    "centroid_radial_mean_A": 13.41,
+    "radial_cv": 0.154,
+    "angular_cv": 0.12
+  },
+  {
+    "predictor": "af3",
+    "N": 3,
+    "n_chains": 3,
+    "centroid_radial_mean_A": 13.17,
+    "radial_cv": 0.001,
+    "angular_cv": 0.001
+  },
+  {
+    "predictor": "boltz",
+    "N": 4,
+    "n_chains": 4,
+    "centroid_radial_mean_A": 15.51,
+    "radial_cv": 0.004,
+    "angular_cv": 0.135
+  },
+  {
+    "predictor": "af3",
+    "N": 4,
+    "n_chains": 4,
+    "centroid_radial_mean_A": 16.09,
+    "radial_cv": 0.004,
+    "angular_cv": 0.005
+  },
+  {
+    "predictor": "boltz",
+    "N": 5,
+    "n_chains": 5,
+    "centroid_radial_mean_A": 18.71,
+    "radial_cv": 0.261,
+    "angular_cv": 0.229
+  },
+  {
+    "predictor": "af3",
+    "N": 5,
+    "n_chains": 5,
+    "centroid_radial_mean_A": 18.61,
+    "radial_cv": 0.005,
+    "angular_cv": 0.004
+  },
+  {
+    "predictor": "boltz",
+    "N": 6,
+    "n_chains": 6,
+    "centroid_radial_mean_A": 20.35,
+    "radial_cv": 0.277,
+    "angular_cv": 0.169
+  },
+  {
+    "predictor": "af3",
+    "N": 6,
+    "n_chains": 6,
+    "centroid_radial_mean_A": 23.19,
+    "radial_cv": 0.011,
+    "angular_cv": 0.006
+  }
+]

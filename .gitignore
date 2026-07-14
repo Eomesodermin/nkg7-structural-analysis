@@ -1,0 +1,17 @@
+# Heavy data — kept on the cluster, not in the repo
+*.dcd
+*.xtc
+*.trr
+*.mp4
+*.tar.gz
+runs/
+tmp/
+msas/
+# AF monomer models (regenerable from accessions)
+AF-*.pdb
+*_v6.pdb
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

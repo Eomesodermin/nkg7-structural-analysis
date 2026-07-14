@@ -1,0 +1,51 @@
+accession,sciname,pct_identity,align_len,evalue,bit_score,title,is_nkg7
+S69115,Homo sapiens,100.0,498,0.0,899.364,"granulocyte colony-stimulating factor induced gene [human, CML patient, bone marrow mononuclear cells, mRNA, 833 nt]",False
+NM_005601,Homo sapiens,100.0,498,0.0,899.364,"Homo sapiens natural killer cell granule protein 7 (NKG7), transcript variant 1, mRNA",True
+BC015759,Homo sapiens,100.0,498,0.0,899.364,"Homo sapiens natural killer cell group 7 sequence, mRNA (cDNA clone MGC:23111 IMAGE:4849734), complete cds",True
+LT734887,Human ORFeome Gateway entry vector,100.0,497,0.0,897.561,"Human ORFeome Gateway entry vector pENTR223-NKG7, complete sequence",True
+KJ891706,synthetic construct,100.0,497,0.0,897.561,"Synthetic construct Homo sapiens clone ccsbBroadEn_01100 NKG7 gene, encodes complete protein",True
+EU176419,synthetic construct,100.0,496,0.0,895.757,"Synthetic construct Homo sapiens clone IMAGE:100006498; FLH193017.01X; RZPDo839B06252D natural killer cell group 7 sequence (NKG7) gene, encodes complete protein",True
+DQ895942,synthetic construct,100.0,496,0.0,895.757,"Synthetic construct Homo sapiens clone IMAGE:100010402; FLH193010.01L; RZPDo839B1068D natural killer cell group 7 sequence (NKG7) gene, encodes complete protein",True
+U09608,Homo sapiens,99.6,498,0.0,890.347,"Human cell surface protein (NKG7) mRNA, complete cds",True
+XM_003316572,Pan troglodytes,98.6,498,0.0,867.805,"PREDICTED: Pan troglodytes natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_003813657,Pan paniscus,98.6,498,0.0,867.805,"PREDICTED: Pan paniscus natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_004061283,Gorilla gorilla gorilla,98.6,498,0.0,867.805,"PREDICTED: Gorilla gorilla gorilla natural killer cell granule protein 7 (NKG7), transcript variant X2, mRNA",True
+XM_003269844,Nomascus leucogenys,95.6,498,0.0,800.179,"PREDICTED: Nomascus leucogenys natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_055237013,Symphalangus syndactylus,95.6,498,0.0,800.179,"PREDICTED: Symphalangus syndactylus natural killer cell granule protein 7 (NKG7), transcript variant X2, mRNA",True
+XM_063615664,Symphalangus syndactylus,95.6,498,0.0,800.179,"PREDICTED: Symphalangus syndactylus natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_054464371,Pongo pygmaeus,95.4,498,0.0,795.67,"PREDICTED: Pongo pygmaeus natural killer cell granule protein 7 (NKG7), transcript variant X2, mRNA",True
+XM_054464370,Pongo pygmaeus,95.4,498,0.0,795.67,"PREDICTED: Pongo pygmaeus natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_032169102,Hylobates moloch,95.4,498,0.0,795.67,"PREDICTED: Hylobates moloch natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_063719623,Pongo abelii,95.2,498,0.0,791.162,"PREDICTED: Pongo abelii natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_023182505,Piliocolobus tephrosceles,94.4,498,0.0,773.128,"PREDICTED: Piliocolobus tephrosceles natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_033224295,Trachypithecus francoisi,94.4,498,0.0,773.128,"PREDICTED: Trachypithecus francoisi natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_012081066,Cercocebus atys,94.2,498,0.0,768.62,"PREDICTED: Cercocebus atys natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_017876449,Rhinopithecus bieti,94.2,498,0.0,768.62,"PREDICTED: Rhinopithecus bieti natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_025367715,Theropithecus gelada,94.0,498,0.0,764.111,"PREDICTED: Theropithecus gelada natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_003916001,Papio anubis,94.0,498,0.0,764.111,"PREDICTED: Papio anubis natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_010369604,Rhinopithecus roxellana,94.0,498,0.0,764.111,"PREDICTED: Rhinopithecus roxellana natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_001116332,Macaca mulatta,93.8,498,0.0,759.603,"PREDICTED: Macaca mulatta natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_011965908,Mandrillus leucophaeus,93.8,498,0.0,759.603,"PREDICTED: Mandrillus leucophaeus natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_007997775,Chlorocebus sabaeus,93.8,498,0.0,759.603,"PREDICTED: Chlorocebus sabaeus natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_050771651,Macaca thibetana thibetana,93.6,498,0.0,755.094,"PREDICTED: Macaca thibetana thibetana natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_005590103,Macaca fascicularis,93.4,498,0.0,750.586,"PREDICTED: Macaca fascicularis natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_011767867,Macaca nemestrina,93.0,498,0.0,741.569,"PREDICTED: Macaca nemestrina natural killer cell granule protein 7 (LOC105497111), mRNA",True
+XM_011946245,Colobus angolensis palliatus,93.0,498,0.0,741.569,"PREDICTED: Colobus angolensis palliatus natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_012461878,Aotus nancymaae,89.0,498,0.0,651.401,"PREDICTED: Aotus nancymaae natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_002762426,Callithrix jacchus,88.8,498,0.0,646.892,"PREDICTED: Callithrix jacchus natural killer cell granule protein 7 (NKG7), transcript variant X3, mRNA",True
+XM_003944236,Saimiri boliviensis,88.4,498,4.13409e-178,637.875,"PREDICTED: Saimiri boliviensis natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_032264572,Sapajus apella,87.8,498,9.10594e-174,624.35,"PREDICTED: Sapajus apella natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_017512456,Cebus imitator,87.1,498,5.74648e-170,610.825,"PREDICTED: Cebus imitator natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_012785541,Microcebus murinus,86.9,498,2.44346e-168,606.317,"PREDICTED: Microcebus murinus natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_078359556,Callithrix jacchus,89.1,442,2.78799e-161,581.971,"PREDICTED: Callithrix jacchus natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_045532591,Lemur catta,85.5,498,4.13774e-159,574.758,"PREDICTED: Lemur catta natural killer cell granule protein 7 (NKG7), transcript variant X3, mRNA",True
+XM_069457417,Eulemur rufifrons,85.5,498,4.13774e-159,574.758,"PREDICTED: Eulemur rufifrons natural killer cell granule protein 7 (NKG7), transcript variant X2, mRNA",True
+XM_045532590,Lemur catta,85.5,498,4.13774e-159,574.758,"PREDICTED: Lemur catta natural killer cell granule protein 7 (NKG7), transcript variant X2, mRNA",True
+XM_045532589,Lemur catta,85.5,498,4.13774e-159,574.758,"PREDICTED: Lemur catta natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True
+XM_008049990,Carlito syrichta,85.3,498,1.75941e-157,570.249,"PREDICTED: Carlito syrichta natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_012643367,Propithecus coquereli,84.5,498,4.72116e-152,552.215,"PREDICTED: Propithecus coquereli natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_003803251,Otolemur garnettii,84.3,498,5.75155e-151,547.707,"PREDICTED: Otolemur garnettii natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_008588318,Galeopterus variegatus,84.3,498,5.75155e-151,547.707,"PREDICTED: Galeopterus variegatus natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_063092259,Cynocephalus volans,84.3,498,5.75155e-151,547.707,"PREDICTED: Cynocephalus volans natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_053604430,Nycticebus coucang,84.1,498,2.44562e-149,543.199,"PREDICTED: Nycticebus coucang natural killer cell granule protein 7 (NKG7), mRNA",True
+XM_063702044,Gorilla gorilla gorilla,98.0,304,2.29054e-143,522.46,"PREDICTED: Gorilla gorilla gorilla natural killer cell granule protein 7 (NKG7), transcript variant X1, mRNA",True

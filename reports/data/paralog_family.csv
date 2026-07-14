@@ -1,0 +1,11 @@
+name,paralog_gene,type,target_perc_id,source_perc_id,taxonomy_level
+TMEM202,ENSG00000187806,within_species_paralog,14.2857,23.6364,Amniota
+CLDND2,ENSG00000160318,within_species_paralog,18.5629,18.7879,Gnathostomata
+LIM2,ENSG00000105370,within_species_paralog,22.5434,23.6364,Gnathostomata
+GSG1L,ENSG00000169181,within_species_paralog,11.1782,22.4242,Gnathostomata
+GSG1,ENSG00000111305,within_species_paralog,8.01105,17.5758,Gnathostomata
+GSG1L2,ENSG00000214978,within_species_paralog,11.6041,20.6061,Gnathostomata
+EMP3,ENSG00000142227,other_paralog,14.7239,14.5455,Vertebrata
+EMP1,ENSG00000134531,other_paralog,13.3758,12.7273,Vertebrata
+EMP2,ENSG00000213853,other_paralog,13.1737,13.3333,Vertebrata
+PMP22,ENSG00000109099,other_paralog,16.25,15.7576,Vertebrata

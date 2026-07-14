@@ -1,0 +1,52 @@
+[
+  {
+    "N": 2,
+    "boltz_iptm": 0.629,
+    "af3_iptm": 0.22,
+    "chai_iptm": 0.197,
+    "max_iptm": 0.63,
+    "verdict": "SPLIT",
+    "af3_radial_cv": 0.0,
+    "boltz_radial_cv": 0.0
+  },
+  {
+    "N": 3,
+    "boltz_iptm": 0.559,
+    "af3_iptm": 0.2,
+    "chai_iptm": 0.258,
+    "max_iptm": 0.56,
+    "verdict": "SPLIT",
+    "af3_radial_cv": 0.001,
+    "boltz_radial_cv": 0.154
+  },
+  {
+    "N": 4,
+    "boltz_iptm": 0.544,
+    "af3_iptm": 0.16,
+    "chai_iptm": 0.22,
+    "max_iptm": 0.54,
+    "verdict": "SPLIT",
+    "af3_radial_cv": 0.004,
+    "boltz_radial_cv": 0.004
+  },
+  {
+    "N": 5,
+    "boltz_iptm": 0.335,
+    "af3_iptm": 0.16,
+    "chai_iptm": 0.393,
+    "max_iptm": 0.39,
+    "verdict": "none (<0.5)",
+    "af3_radial_cv": 0.005,
+    "boltz_radial_cv": 0.261
+  },
+  {
+    "N": 6,
+    "boltz_iptm": 0.241,
+    "af3_iptm": 0.16,
+    "chai_iptm": 0.41,
+    "max_iptm": 0.41,
+    "verdict": "none (<0.5)",
+    "af3_radial_cv": 0.011,
+    "boltz_radial_cv": 0.277
+  }
+]

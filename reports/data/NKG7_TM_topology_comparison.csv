@@ -1,0 +1,10 @@
+element,assumed,TMHMM,Phobius
+TM1,9-29,7-29,(called signal peptide 1-37)
+TM2,61-81,63-85,61-85
+TM3,92-112,92-114,92-113
+TM4,133-153,129-151,133-153
+N-tail (cyto),1-8,1-6,1-6 (within SP)
+ECL1 (luminal/extracellular),30-60,30-62,38-60
+loop TM2-TM3 (cyto),82-91,86-91,86-91
+ECL2 (luminal/extracellular),113-132,115-128,114-132
+C-tail (cyto),154-165,152-165,154-165

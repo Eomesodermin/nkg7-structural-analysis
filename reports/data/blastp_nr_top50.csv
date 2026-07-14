@@ -1,0 +1,51 @@
+accession,title,sciname,taxid,evalue,bit_score,pct_identity,align_len,query_cov,is_nkg7
+NP_005592,protein NKG7 isoform 1 [Homo sapiens],Homo sapiens,9606,7.6024e-113,328.561,100.0,165,100.0,True
+XP_004061331,protein NKG7 isoform X2 [Gorilla gorilla gorilla],Gorilla gorilla gorilla,9595,1.33019e-106,312.768,95.8,165,100.0,True
+XP_003813705,protein NKG7 isoform X1 [Pan paniscus],Pan paniscus,9597,7.20688e-106,310.842,95.8,165,100.0,True
+PNI91956,NKG7 isoform 2 [Pan troglodytes],Pan troglodytes,9598,1.33227e-105,310.457,95.8,165,100.0,True
+XP_003316620,protein NKG7 [Pan troglodytes],Pan troglodytes,9598,1.33227e-105,310.457,95.8,165,100.0,True
+KAL4664242,hypothetical protein H8957_013089 [Semnopithecus entellus],Semnopithecus entellus,88029,6.29903e-100,295.819,89.7,165,100.0,False
+XP_023038273,protein NKG7 [Piliocolobus tephrosceles],Piliocolobus tephrosceles,591936,1.1643e-99,295.434,89.7,165,100.0,True
+KAL4831058,hypothetical protein H8958_006586 [Nasalis larvatus],Nasalis larvatus,43780,1.80564e-99,294.664,89.7,165,100.0,False
+XP_011936456,PREDICTED: protein NKG7 [Cercocebus atys],Cercocebus atys,9531,5.71293e-99,293.508,89.1,165,100.0,True
+XP_007995966,protein NKG7 [Chlorocebus sabaeus],Chlorocebus sabaeus,60711,6.03503e-99,293.508,89.1,165,100.0,True
+XP_010367906,protein NKG7 [Rhinopithecus roxellana],Rhinopithecus roxellana,61622,7.35244e-99,293.123,89.1,165,100.0,True
+XP_054320345,protein NKG7 [Pongo pygmaeus],Pongo pygmaeus,9600,7.59842e-99,293.123,89.7,165,100.0,True
+KAL4667262,hypothetical protein H8959_005951 [Pygathrix nigripes],Pygathrix nigripes,310352,8.38686e-99,293.123,89.7,165,100.0,False
+XP_003916050,protein NKG7 [Papio anubis],Papio anubis,9555,3.06017e-98,291.582,88.5,165,100.0,True
+XP_033080186,protein NKG7 [Trachypithecus francoisi],Trachypithecus francoisi,54180,3.72817e-98,291.582,88.5,165,100.0,True
+XP_063575693,protein NKG7 isoform X1 [Pongo abelii],Pongo abelii,9601,5.06856e-98,291.197,89.1,165,100.0,True
+XP_011821298,PREDICTED: protein NKG7 [Mandrillus leucophaeus],Mandrillus leucophaeus,9568,1.63913e-97,290.041,87.9,165,100.0,True
+XP_001116332,protein NKG7 [Macaca mulatta],Macaca mulatta,9544,2.93151e-97,289.271,87.9,165,100.0,True
+XP_050627608,protein NKG7 [Macaca thibetana thibetana],Macaca thibetana thibetana,257877,4.07383e-97,288.886,87.3,165,100.0,True
+XP_003269892,protein NKG7 isoform X1 [Nomascus leucogenys],Nomascus leucogenys,61853,4.21359e-96,286.189,91.5,165,100.0,True
+XP_005590160,protein NKG7 [Macaca fascicularis],Macaca fascicularis,9541,1.02446e-95,285.419,86.7,165,100.0,True
+EHH59839,hypothetical protein EGM_10044 [Macaca fascicularis],Macaca fascicularis,9541,1.79238e-95,284.648,86.7,165,100.0,False
+XP_011766169,protein NKG7 [Macaca nemestrina],Macaca nemestrina,9545,5.36742e-95,283.493,86.1,165,100.0,True
+XP_055092988,protein NKG7 isoform X1 [Symphalangus syndactylus],Symphalangus syndactylus,9590,6.75764e-95,283.108,90.9,165,100.0,True
+XP_011801635,PREDICTED: protein NKG7 [Colobus angolensis palliatus],Colobus angolensis palliatus,336983,1.62501e-94,282.337,86.1,165,100.0,True
+XP_032024993,protein NKG7 isoform X1 [Hylobates moloch],Hylobates moloch,81572,1.87513e-93,279.641,90.3,165,100.0,True
+XP_002762472,protein NKG7 isoform X3 [Callithrix jacchus],Callithrix jacchus,9483,1.96186e-89,269.626,81.2,165,100.0,True
+XP_003944285,protein NKG7 [Saimiri boliviensis],Saimiri boliviensis,27679,3.6653e-89,268.855,81.2,165,100.0,True
+XP_012317301,protein NKG7 [Aotus nancymaae],Aotus nancymaae,37293,1.05019e-87,265.003,81.2,165,100.0,True
+KAL0609913,Protein NKG7 [Plecturocebus cupreus],Plecturocebus cupreus,202457,1.16285e-87,266.159,81.2,165,100.0,True
+XP_017367945,protein NKG7 [Cebus imitator],Cebus imitator,2715852,5.49898e-87,263.462,79.4,165,100.0,True
+XP_032120463,protein NKG7 [Sapajus apella],Sapajus apella,9515,1.93529e-81,249.21,80.6,165,100.0,True
+KAI5213808,Protein Nkg7 [Manis pentadactyla],Manis pentadactyla,143292,1.14255e-80,247.284,73.9,165,100.0,True
+XP_010945361,protein NKG7 [Camelus bactrianus],Camelus bactrianus,9837,2.46077e-80,246.514,73.3,165,100.0,True
+XP_005259012,protein NKG7 isoform X1 [Homo sapiens],Homo sapiens,9606,5.01284e-80,244.588,78.8,165,100.0,True
+XP_017497634,protein NKG7 [Manis javanica],Manis javanica,9974,2.15524e-79,244.202,73.3,165,100.0,True
+XP_008048181,protein NKG7 [Carlito syrichta],Carlito syrichta,1868482,3.45267e-79,243.432,80.6,165,100.0,True
+XP_010945361,PREDICTED: protein NKG7 isoform X2 [Camelus bactrianus],Camelus bactrianus,9837,5.97213e-79,243.047,72.7,165,100.0,True
+XP_012640995,protein NKG7 [Microcebus murinus],Microcebus murinus,30608,8.95835e-79,242.662,79.4,165,100.0,True
+XP_006208494,protein NKG7 [Vicugna pacos],Vicugna pacos,30538,9.05706e-79,242.662,71.5,165,100.0,True
+XP_003803299,protein NKG7 [Otolemur garnettii],Otolemur garnettii,30611,9.05706e-79,242.662,75.8,165,100.0,True
+XP_010985174,protein NKG7 [Camelus dromedarius],Camelus dromedarius,9838,1.61895e-78,241.891,72.1,165,100.0,True
+XP_032243918,protein NKG7 [Phoca vitulina],Phoca vitulina,9720,4.68683e-78,240.736,73.3,165,100.0,True
+XP_045388545,protein NKG7 [Lemur catta],Lemur catta,9447,7.59069e-78,240.35,79.4,165,100.0,True
+XP_078215682,protein NKG7 isoform X1 [Callithrix jacchus],Callithrix jacchus,9483,9.87564e-78,240.736,78.3,157,95.2,True
+XP_012498821,PREDICTED: protein NKG7 [Propithecus coquereli],Propithecus coquereli,379532,1.18961e-77,239.58,78.8,165,100.0,True
+XP_027947393,protein NKG7 [Eumetopias jubatus],Eumetopias jubatus,34886,8.5325e-76,234.958,73.3,165,100.0,True
+XP_027473813,protein NKG7 isoform X3 [Zalophus californianus],Zalophus californianus,9704,9.52054e-76,234.958,73.3,165,100.0,True
+KAM6153805,protein NKG7 [Erethizon dorsatum],Erethizon dorsatum,34844,3.47038e-75,233.417,72.9,166,100.0,True
+XP_081371068,protein NKG7 [Giraffa tippelskirchi],Giraffa tippelskirchi,439328,6.48027e-75,232.646,67.9,165,100.0,True

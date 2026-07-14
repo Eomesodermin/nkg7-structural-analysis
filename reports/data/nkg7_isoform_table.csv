@@ -1,0 +1,14 @@
+transcript_id,canonical,biotype,refseq_mRNA,n_exons,protein_len_aa,novel_residues,TM_full,TM_partial,TM_status,ECL1_frac,ECL2_frac,YETL_motif,GTEx_whole_blood_pct
+ENST00000221978,yes,protein_coding,NM_005601,4,165,0,4,0,TM1:full;TM2:full;TM3:full;TM4:full,1.0,1.0,yes,79.1
+ENST00001103012,,protein_coding,,6,165,0,4,0,TM1:full;TM2:full;TM3:full;TM4:full,1.0,1.0,yes,no_data(newer_annot)
+ENST00001135145,,protein_coding,,4,165,0,4,0,TM1:full;TM2:full;TM3:full;TM4:full,1.0,1.0,yes,no_data(newer_annot)
+ENST00001103016,,protein_coding,,4,155,87,1,0,TM1:full;TM2:lost;TM3:lost;TM4:lost,0.87,0.0,no,no_data(newer_annot)
+ENST00001103017,,protein_coding,,3,143,17,2,1,TM1:full;TM2:lost;TM3:partial;TM4:full,0.77,1.0,yes,no_data(newer_annot)
+ENST00000595217,,protein_coding,NM_001363693,3,142,63,1,1,TM1:full;TM2:lost;TM3:partial;TM4:lost,0.77,0.25,no,11.2
+ENST00001103014,,protein_coding,,4,136,24,2,1,TM1:full;TM2:full;TM3:partial;TM4:lost,1.0,0.25,no,no_data(newer_annot)
+ENST00001103013,,protein_coding,,3,128,54,1,0,TM1:full;TM2:lost;TM3:lost;TM4:lost,0.84,0.05,no,no_data(newer_annot)
+ENST00001103015,,protein_coding,,3,120,0,2,0,TM1:full;TM2:full;TM3:lost;TM4:lost,1.0,0.0,yes,no_data(newer_annot)
+ENST00000595157,,protein_coding,,4,89,1,2,0,TM1:lost;TM2:lost;TM3:full;TM4:full,0.32,1.0,yes,5.5
+ENST00000600427,,protein_coding,,3,85,0,1,0,TM1:full;TM2:lost;TM3:lost;TM4:lost,0.77,0.0,yes,0.2
+ENST00000593572,,protein_coding,,3,72,0,1,1,TM1:lost;TM2:lost;TM3:partial;TM4:full,0.26,1.0,yes,4.1
+ENST00000861190,,protein_coding,,2,71,0,1,0,TM1:full;TM2:lost;TM3:lost;TM4:lost,0.77,0.0,yes,no_data(newer_annot)

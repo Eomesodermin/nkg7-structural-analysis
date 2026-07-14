@@ -1,0 +1,20 @@
+{
+  "name": "NKG7_C3",
+  "modelSeeds": [
+    1
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A",
+          "B",
+          "C"
+        ],
+        "sequence": "MELCRSLALLGGSLGLMFCLIALSTDFWFEAVGPTHSAHSGLWPTGHGDIISGYIHVTQTFSIMAVLWALVSVSFLVLSCFPSLFPPGHGPLVSTTAAFAAAISMVVAMAVYTSERWDQPPHPQIQTFFSWSFYLGWVSAILLLCTGALSLGAHCGGPRPGYETL"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 1
+}

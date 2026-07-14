@@ -1,0 +1,20 @@
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	SIGNAL_PEPTIDE_N_REGION	N-terminal region of a signal peptide.	1	6	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	SIGNAL_PEPTIDE_C_REGION	C-terminal region of a signal peptide.	26	37	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	38	60	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	86	91	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	SIGNAL_PEPTIDE_H_REGION	Hydrophobic region of a signal peptide.	7	25	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	FunFam	G3DSA:1.20.140.150:FF:000033	Natural killer cell granule protein 7	48	162	7.3E-65	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the cytoplasm.	154	165	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	129	151	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Pfam	PF00822	PMP-22/EMP/MP20/Claudin family	11	149	4.2E-6	T	14-07-2026	IPR004031	PMP-22/EMP/MP20/Claudin	GO:0016020(InterPro)	Reactome:R-BTA-399719|Reactome:R-BTA-5682910|Reactome:R-DRE-6809371|Reactome:R-HSA-112308|Reactome:R-HSA-399719|Reactome:R-HSA-420029|Reactome:R-HSA-5576892|Reactome:R-HSA-5576893|Reactome:R-HSA-5682910|Reactome:R-HSA-6803205|Reactome:R-HSA-6809371|Reactome:R-HSA-8935964|Reactome:R-HSA-9619665|Reactome:R-HSA-9856532|Reactome:R-HSA-9918485|Reactome:R-HSA-9925563|Reactome:R-MMU-112308|Reactome:R-MMU-399719|Reactome:R-MMU-5576892|Reactome:R-MMU-5576893|Reactome:R-MMU-5682910|Reactome:R-MMU-6809371|Reactome:R-RNO-112308|Reactome:R-RNO-399719|Reactome:R-RNO-5576892|Reactome:R-RNO-5576893|Reactome:R-RNO-5682910
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	SIGNAL_PEPTIDE	Signal peptide region	1	37	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	7	29	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	PANTHER	PTHR10671	EPITHELIAL MEMBRANE PROTEIN-RELATED	2	154	2.8E-26	T	14-07-2026	IPR050579	Peripheral myelin protein 22/Epithelial membrane protein-like	GO:0005886(PANTHER)	Reactome:R-HSA-9619665
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	ProSitePatterns	PS01221	PMP-22 / EMP / MP20 family signature 1.	18	46	-	T	14-07-2026	IPR004032	PMP-22/EMP/MP20	GO:0016020(InterPro)	Reactome:R-HSA-9619665
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	133	153	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	92	114	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	61	85	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	TRANSMEMBRANE	Region of a membrane-bound protein predicted to be embedded in the membrane.	92	113	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Phobius	NON_CYTOPLASMIC_DOMAIN	Region of a membrane-bound protein predicted to be outside the membrane, in the extracellular region.	114	132	-	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	Gene3D	G3DSA:1.20.140.150	-	2	158	1.2E-13	T	14-07-2026	-	-	-	-
+EMBOSS_001	b74c3b220bb509ab857c7f956d53e190	165	TMHMM	TMhelix	Region of a membrane-bound protein predicted to be embedded in the membrane.	63	85	-	T	14-07-2026	-	-	-	-

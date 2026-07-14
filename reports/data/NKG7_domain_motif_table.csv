@@ -1,0 +1,13 @@
+feature,category,source_db,accession,interpro,start,end,score_evalue,method
+PMP-22/EMP/MP20/Claudin family,domain_family,Pfam,PF00822,IPR004031,11,149,E=8.7e-7,HMM
+PMP-22/EMP/MP20 family signature 1,domain_family,PROSITE_patterns,PS01221,IPR004032,18,46,pattern match,PROSITE regex
+Epithelial membrane protein-related (PMP22/EMP-like),domain_family,PANTHER,PTHR10671,IPR050579,2,154,E=2.8e-26,HMM
+Claudin-like fold (CATH superfamily),fold,CATH-Gene3D,G3DSA:1.20.140.150,,2,158,E=1.7e-14,HMM
+Natural killer cell granule protein 7 (FunFam),fold,CATH-FunFam,G3DSA:1.20.140.150:FF:000033,,48,162,E=7.3e-65,HMM
+TM helix 1,transmembrane,TMHMM,TMhelix,,7,29,-,TMHMM2.0
+TM helix 2,transmembrane,TMHMM,TMhelix,,63,85,-,TMHMM2.0
+TM helix 3,transmembrane,TMHMM,TMhelix,,92,114,-,TMHMM2.0
+TM helix 4,transmembrane,TMHMM,TMhelix,,129,151,-,TMHMM2.0
+Tyrosine-based sorting motif YxxΦ (YETL) — lysosomal/endosomal targeting,sorting_motif,regex(YxxΦ)/PROSITE-type,YETL,,162,165,exact C-terminus,"motif regex, cytoplasmic tail"
+S-palmitoylation candidate Cys (juxtamembrane cytoplasmic),lipidation,sequence-based (juxtamembrane Cys),C155,,155,155,candidate,topology+Cys inspection
+S-palmitoylation candidate Cys (cytoplasmic N-tail),lipidation,sequence-based (juxtamembrane Cys),C4,,4,4,candidate,topology+Cys inspection
