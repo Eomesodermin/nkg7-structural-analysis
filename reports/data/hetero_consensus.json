@@ -1,0 +1,32 @@
+{
+  "ATP6AP2": {
+    "boltz_iptm": 0.37,
+    "boltz_cross_iptm": 0.328,
+    "boltz_plddt": 0.746,
+    "af3_iptm": 0.28,
+    "af3_cross_iptm": 0.28,
+    "af3_ptm": 0.49,
+    "chai_iptm": 0.117,
+    "chai_cross_iptm": 0.098
+  },
+  "ORAI1": {
+    "boltz_iptm": 0.54,
+    "boltz_cross_iptm": 0.445,
+    "boltz_plddt": 0.637,
+    "af3_iptm": 0.21,
+    "af3_cross_iptm": 0.21,
+    "af3_ptm": 0.38,
+    "chai_iptm": 0.232,
+    "chai_cross_iptm": 0.224
+  },
+  "STIM1": {
+    "boltz_iptm": 0.432,
+    "boltz_cross_iptm": 0.35,
+    "boltz_plddt": 0.604,
+    "af3_iptm": 0.59,
+    "af3_cross_iptm": 0.59,
+    "af3_ptm": 0.43,
+    "chai_iptm": 0.134,
+    "chai_cross_iptm": 0.118
+  }
+}

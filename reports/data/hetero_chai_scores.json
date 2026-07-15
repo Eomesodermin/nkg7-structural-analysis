@@ -1,0 +1,26 @@
+{
+  "ATP6AP2": {
+    "model": 3,
+    "iptm": 0.117,
+    "cross_iptm": 0.098,
+    "ptm": 0.545,
+    "agg": 0.203,
+    "clash": false
+  },
+  "ORAI1": {
+    "model": 4,
+    "iptm": 0.232,
+    "cross_iptm": 0.224,
+    "ptm": 0.554,
+    "agg": 0.296,
+    "clash": false
+  },
+  "STIM1": {
+    "model": 4,
+    "iptm": 0.134,
+    "cross_iptm": 0.118,
+    "ptm": 0.331,
+    "agg": 0.173,
+    "clash": false
+  }
+}

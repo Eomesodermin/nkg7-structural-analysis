@@ -35,7 +35,7 @@ Each tier is cheap-to-expensive and gates the next: a negative result stops the 
 |------|----------|---------|---------|
 | **0 — Triage** | What *is* NKG7? Fold, relatives, gene/transcripts, domains; does the monomer conduct? | Foldseek, BLAST/Compara/phmmer, Ensembl+GTEx, InterProScan, monomer pore scan | **ESCALATE** — bona-fide tetraspan; every analog non-conducting; monomer occluded (expected) |
 | **1 — Oligomer** | Does an oligomer enclose a pore? | Boltz-2 + AlphaFold3 + Chai-1 (C2–C6) + **reference HOLE** | **STOP channel track** — no confident oligomer; every confident model occluded |
-| *(pivot)* — Hetero-complex | What does NKG7 dock *onto*? | 3-predictor complex prediction vs candidate partners | *planned — see [`docs/CAMPAIGN_PLAN.md`](docs/CAMPAIGN_PLAN.md)* |
+| **(pivot) — Hetero-complex** | What does NKG7 dock *onto*? | Boltz-2 + AlphaFold3 + Chai-1 (NKG7 + ATP6AP2/ORAI1/STIM1) | **INCONCLUSIVE** — no confident interface; positive control (ATP6AP2) also fails the bar → binary co-folding under-powered |
 
 ### The decisive Tier-1 result
 
@@ -53,6 +53,23 @@ Wet-lab context (western-blot multimer bands, NKG7 self-coprecipitation) confirm
 self-associate — and the predictors corroborate a reproducible dimer interface. But that interface
 is a **lateral TM1–TM1 helix-packing contact**, exactly why the pore stays shut. Oligomerisation and
 pore-formation are separate claims: the first is supported, the second is not.
+
+### The hetero-complex screen (post-Tier-1 pivot)
+
+Since NKG7's whole family (Ca_V/TARP-γ, GSG1L) works by *docking onto a partner channel and
+regulating it*, the better-posed question after the negative pore result is **what NKG7 binds**.
+NKG7 was co-folded with three candidate partners — **ATP6AP2** (a known binder, used as a
+positive control), **ORAI1** (the CRAC channel pore), and **STIM1** (its ER sensor) — across all
+three predictors.
+
+**No complex reached a confident interface** (best cross-chain ipTM **0.59**, AlphaFold3·STIM1;
+confident bar ~0.8). Decisively, the **ATP6AP2 positive control also failed** the confidence bar
+(0.10–0.33) — so the method is under-powered for NKG7's partnerships and the ORAI1/STIM1 negatives
+are *inconclusive*, not evidence of no interaction. Full analysis:
+[`reports/nkg7_hetero_complex_report.html`](reports/nkg7_hetero_complex_report.html). Recommended
+follow-up: higher-order co-folds (NKG7 + ORAI1 hexamer) and experimental partner discovery
+(co-IP / proximity-labelling mass-spec), given the independent western-blot/pulldown evidence that
+NKG7 self-associates.
 
 ## Repository layout
 
