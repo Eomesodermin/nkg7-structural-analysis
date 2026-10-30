@@ -22,7 +22,7 @@ img{max-width:100%;border:1px solid #e0e6ed;border-radius:6px;margin:10px 0}
 
 <h1>NKG7 Hetero-Complex Screen — Does NKG7 Dock onto a Ca²⁺ Partner?</h1>
 <p class="meta"><b>Project:</b> NKG7 structural analysis (proj_d2fe638c3a6f) &middot;
-<b>Stage:</b> post-Tier-1 pivot (hetero-complex) &middot; <b>Date:</b> 2026-07-14/15 &middot; <b>Cluster:</b> marvin (Uni Bonn)<br>
+<b>Stage:</b> post-Tier-1 pivot (hetero-complex) &middot; <b>Date:</b> 2026-07-14/15 &middot; <b>Cluster:</b> University of Bonn HPC cluster<br>
 <b>Query:</b> NKG7 (UniProt Q16617, 165 aa) &middot; <b>Partners:</b> ATP6AP2 (O75787), ORAI1 (Q96D31), STIM1 (Q13586) &middot;
 <b>Predictors:</b> Boltz-2, AlphaFold3 3.0.1, Chai-1 0.6.1 (1 A40 GPU each)</p>
 
@@ -71,7 +71,7 @@ The screen does not support a confident NKG7–ORAI1, NKG7–STIM1, or even NKG7
 </ol>
 
 <h2>6. Methods</h2>
-<p>NKG7 (chain A) was co-folded with each partner (chain B) using three predictors on marvin, one A40 GPU per predictor, all three complexes bundled per job. <b>Boltz-2</b>: <code>--use_msa_server --recycling_steps 3 --diffusion_samples 5 --no_kernels</code>. <b>Chai-1 0.6.1</b>: <code>--use-msa-server --no-use-esm-embeddings --num-diffn-samples 5</code> (ESM weights not fetchable on the compute node). <b>AlphaFold3 3.0.1</b>: full MSA data pipeline per complex, apptainer container. Interface confidence = cross-chain ipTM (off-diagonal of the per-chain-pair ipTM matrix) of the best model per predictor. Interfaces computed at a 5 Å heavy-atom cutoff (MDAnalysis). Partner sequences: UniProt canonical full-length.</p>
+<p>NKG7 (chain A) was co-folded with each partner (chain B) using three predictors on an HPC cluster, one A40 GPU per predictor, all three complexes bundled per job. <b>Boltz-2</b>: <code>--use_msa_server --recycling_steps 3 --diffusion_samples 5 --no_kernels</code>. <b>Chai-1 0.6.1</b>: <code>--use-msa-server --no-use-esm-embeddings --num-diffn-samples 5</code> (ESM weights not fetchable on the compute node). <b>AlphaFold3 3.0.1</b>: full MSA data pipeline per complex, apptainer container. Interface confidence = cross-chain ipTM (off-diagonal of the per-chain-pair ipTM matrix) of the best model per predictor. Interfaces computed at a 5 Å heavy-atom cutoff (MDAnalysis). Partner sequences: UniProt canonical full-length.</p>
 
 <h2>7. Limitations</h2>
 <ul>

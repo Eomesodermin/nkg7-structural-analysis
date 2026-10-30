@@ -2,10 +2,9 @@
 
 ## Method
 Pore-radius profile computed along the membrane normal of the AlphaFold **monomer** models
-(human Q16617, mouse Q99PA5), HOLE-style. The external HOLE binary and the `hole2` conda
-package are not installable in this sandbox (not on any allowlisted conda channel; not on
-PyPI), so a HOLE-equivalent **geometric probe-sphere** algorithm was used, which is the
-method HOLE itself implements:
+(human Q16617, mouse Q99PA5), HOLE-style. The reference HOLE binary was not available for this
+step, so a HOLE-equivalent **geometric probe-sphere** algorithm was used, which is the
+method HOLE itself implements (Tier 1 re-scans every oligomer with reference HOLE):
 
 1. Load heavy atoms; assign Bondi van der Waals radii.
 2. Define the membrane normal as the **long (principal) axis of the four-TM CA bundle**

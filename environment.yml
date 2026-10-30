@@ -1,0 +1,14 @@
+# Environment for the pore-scan and helper scripts.
+#   conda env create -f environment.yml && conda activate nkg7-structure
+# Structure predictors (Boltz-2, AlphaFold3, Chai-1) are installed separately; see envs/README.md.
+name: nkg7-structure
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - mdanalysis=2.10.0
+  - numpy
+  - gemmi=0.7.5
+  - pip
+  - pip:
+      - mdahole2==0.5.0

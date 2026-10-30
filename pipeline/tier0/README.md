@@ -9,6 +9,6 @@ queries, accessions, and per-workstream method details are in the notes committe
 - `NKG7_Tier0D_domain_notes.md` — InterProScan job id + domain accessions
 - `NKG7_monomer_pore_notes.md` — monomer pore-scan method
 
-Foldseek (0A) ran as a CPU sbatch job on marvin:
+Foldseek (0A) ran as a CPU job on an HPC cluster:
 `foldseek easy-search <NKG7.pdb> <PDB100db> <out.tsv> tmp --alignment-type 1`
 (TM-align mode), then matched-chain identities resolved via the RCSB data API.

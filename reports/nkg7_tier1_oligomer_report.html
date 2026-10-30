@@ -19,7 +19,7 @@ img{max-width:100%;border:1px solid #e0e6ed;border-radius:6px;margin:10px 0}
 .footer{margin-top:3em;padding-top:1em;border-top:1px solid #cbd5e0;color:#666;font-size:0.85em}
 </style></head><body>
 <h1>NKG7 Ion-Channel Hypothesis — Tier 1: Oligomer Prediction &amp; Pore Test</h1>
-<p class="meta"><b>Project:</b> NKG7 in-silico ion-channel evaluation (proj_d2fe638c3a6f) &middot; <b>Tier:</b> 1 (homo-oligomer prediction C2–C6, three predictors, + reference-HOLE pore re-scan) &middot; <b>Date:</b> 2026-07-14 &middot; <b>Cluster:</b> marvin (Uni Bonn HPC)<br>
+<p class="meta"><b>Project:</b> NKG7 in-silico ion-channel evaluation (proj_d2fe638c3a6f) &middot; <b>Tier:</b> 1 (homo-oligomer prediction C2–C6, three predictors, + reference-HOLE pore re-scan) &middot; <b>Date:</b> 2026-07-14 &middot; <b>Cluster:</b> University of Bonn HPC cluster<br>
 <b>Target:</b> human NKG7 (UniProt Q16617, 165 aa) &middot; <b>Predictors:</b> Boltz-2, AlphaFold3 (3.0.1), Chai-1 (0.6.1) &middot; <b>Pore tool:</b> reference HOLE via mdahole2 0.5.0.</p>
 <div class="verdict-against">
 <b>Tier 1 verdict: the channel hypothesis is NOT supported. Do not escalate to a channel-centric Tier 2/3.</b><br>
@@ -44,7 +44,7 @@ Across three independent structure predictors and five stoichiometries (C2–C6)
 <p><b>Recommended next step (optional, reframed):</b> if the biology of interest is NKG7's effect on Ca<sup>2+</sup>, the productive question is no longer "is NKG7 a pore?" but "what does NKG7 dock onto?" — i.e. predict NKG7 against candidate partner channels/transporters (e.g. ORAI1/STIM1, a Ca_V &alpha; subunit, or the v-ATPase/ATP6AP2 it is known to bind) as a hetero-complex. That is a different, better-posed campaign.</p>
 <h2>6. Methods</h2>
 <ul>
-<li><b>Prediction:</b> each predictor ran the full C2–C6 homo-oligomer sweep as a single A40 GPU job on marvin. Boltz-2 (MSA server, 3 diffusion samples/order); AlphaFold3 3.0.1 (apptainer; MSA data pipeline run once on the monomer, reused across orders); Chai-1 0.6.1 (cached ColabFold MSA, 5 samples/order, no ESM embeddings — see §2 footnote).</li>
+<li><b>Prediction:</b> each predictor ran the full C2–C6 homo-oligomer sweep as a single A40 GPU job on an HPC cluster. Boltz-2 (MSA server, 3 diffusion samples/order); AlphaFold3 3.0.1 (apptainer; MSA data pipeline run once on the monomer, reused across orders); Chai-1 0.6.1 (cached ColabFold MSA, 5 samples/order, no ESM embeddings — see §2 footnote).</li>
 <li><b>Symmetry:</b> chain-centroid radial and angular coefficient of variation (low CV = regular Cn ring). AF3 builds near-perfect rings at all orders (radial CV &le; 0.011) but assigns them low confidence — symmetric placement by the diffusion prior, not evidence of a real interface.</li>
 <li><b>Pore:</b> reference HOLE (mdahole2 0.5.0 / MDAnalysis 2.10.0) along each assembly's symmetry axis; minimum radius with Bondi vdW radii. This replaces the Tier-0 geometric HOLE-equivalent with the reference program, as flagged in the Tier-0 limitations.</li>
 </ul>

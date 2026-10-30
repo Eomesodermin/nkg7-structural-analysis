@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install ruff
+      - run: ruff check pipeline
+      - name: Smoke-test the AlphaFold3 input builder
+        run: |
+          mkdir -p af_out/x
+          python - <<'PY'
+          import json
+          json.dump({"sequences": [{"protein": {"id": "A", "sequence": "MKQ", "unpairedMsa": ">q\nMKQ", "pairedMsa": "", "templates": []}}]},
+                    open("af_out/x/nkg7_monomer_data.json", "w"))
+          PY
+          python pipeline/tier1/af3_build_cn.py --af-out af_out --out-dir af_in
+          test -f af_in/af3_C6.json

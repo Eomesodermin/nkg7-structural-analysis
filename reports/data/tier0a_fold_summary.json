@@ -1,6 +1,6 @@
 {
   "workstream": "Tier 0A \u2014 Foldseek structural homology",
-  "method": "foldseek easy-search TM-align (--alignment-type 1) on marvin, NKG7 human Q16617 + mouse Q99PA5 AF monomers vs PDB100 and AFDB/Swiss-Prot; top hits' matched-chain molecule names resolved via RCSB data API.",
+  "method": "foldseek easy-search TM-align (--alignment-type 1) on an HPC cluster, NKG7 human Q16617 + mouse Q99PA5 AF monomers vs PDB100 and AFDB/Swiss-Prot; top hits' matched-chain molecule names resolved via RCSB data API.",
   "hits_pdb100_human": 589,
   "hits_pdb100_mouse": 628,
   "top20_classification_human": {

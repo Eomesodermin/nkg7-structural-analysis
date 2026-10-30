@@ -1,31 +1,32 @@
 # Compute environments
 
-All structure prediction and pore analysis ran on the **marvin** SLURM cluster
-(University of Bonn), one NVIDIA A40 GPU per predictor job. Environments are conda
-envs on marvin; key package versions below (verified 2026-07-14).
+Structure prediction ran on a SLURM GPU cluster (one NVIDIA A40 per predictor job). Tier 0 used
+public web services and one CPU job. Key versions are below.
 
-| Env | Purpose | Key packages |
-|-----|---------|--------------|
-| `boltz` | Boltz-2 oligomer prediction | boltz-2 (weights `boltz2_conf.ckpt`, `boltz2_aff.ckpt`), PyTorch, CUDA |
-| `chai` | Chai-1 oligomer prediction | `chai_lab` 0.6.1, PyTorch, CUDA |
-| `poreanalysis` | reference-HOLE pore scan | MDAnalysis 2.10.0, mdahole2 0.5.0, HOLE binary, gemmi 0.7.5 |
-| AlphaFold3 (module) | AF3 oligomer prediction | `AlphaFold3/3.0.1-apptainer` (apptainer container) |
+| Tool | Purpose | Version / notes |
+|------|---------|-----------------|
+| Boltz-2 | Oligomer and hetero-complex prediction | `pip install boltz`; weights download on first run |
+| AlphaFold3 | Oligomer and hetero-complex prediction | 3.0.1, apptainer container |
+| Chai-1 | Oligomer and hetero-complex prediction | `chai_lab==0.6.1` |
+| MDAnalysis + mdahole2 + reference HOLE | Pore-radius profiles | MDAnalysis 2.10.0, mdahole2 0.5.0 (see `../environment.yml`) |
+| gemmi | CIF to PDB conversion | 0.7.5 |
 
-## Reproducing the environments
+## Notes for reproducing
 
-- **Boltz-2**: `pip install boltz` (weights auto-download to `~/.boltz` on first run, or pre-cache).
-- **Chai-1**: `pip install chai_lab==0.6.1`. ESM embeddings are optional; the compute node
-  here could not fetch the ~4 GB ESM weights, so folding ran with `--no-use-esm-embeddings`
-  and a cached ColabFold MSA. This mainly affects per-residue accuracy, not interface confidence.
-- **AlphaFold3 3.0.1**: apptainer container. NOTE — inside the container the entrypoint is
-  `/app/alphafold/run_alphafold.py` (NOT at the host install dir). MSA data pipeline is run
-  once on the monomer (`--norun_inference`) then reused across C2–C6 (`--norun_data_pipeline`).
-- **poreanalysis**: `conda create -n poreanalysis python=3.11 mdanalysis`; `pip install mdahole2`;
-  the HOLE binary ships with the MDAnalysis HOLE2 support. `gemmi` for CIF→PDB conversion.
+- **Boltz-2**: run with `--use_msa_server --recycling_steps 3 --diffusion_samples 3 --no_kernels`
+  (homo-oligomers) or `--diffusion_samples 5` (hetero-complexes).
+- **Chai-1**: ESM embeddings are optional. Folding ran with `--no-use-esm-embeddings` and a cached
+  ColabFold MSA because the ~4 GB ESM weights could not be fetched on the compute node. This
+  mainly affects per-residue accuracy, not interface confidence.
+- **AlphaFold3**: the MSA data pipeline runs once on the monomer (`--norun_inference`), and
+  inference then reuses it across C2–C6 (`--norun_data_pipeline`; see `pipeline/tier1/af3_build_cn.py`).
+  Inside the container the entrypoint is `/app/alphafold/run_alphafold.py`, not the host install
+  directory.
+- **Reference HOLE**: `hole_scan.py` needs the HOLE2 binary on `PATH` (or `--hole-exe` /
+  `$HOLE_EXE`). MDAnalysis's `mdahole2` is a wrapper around it.
 
-## Tier-0 web-service tools (no local env)
+## Tier 0 web services (no local environment)
 
-Tier 0 used public web APIs, not GPU jobs:
-- **Foldseek** (structural homology) — ran as a CPU job on marvin against PDB100 + AFDB/SwissProt.
+- **Foldseek** (TM-align mode) against PDB100 and AFDB/SwissProt, run as a CPU job.
 - **NCBI BLAST+** (BLASTp/n, tBLASTn), **Ensembl REST** (Compara, isoforms, locus),
-  **EBI InterProScan 5 + phmmer**, **GTEx v8** — all via their public REST endpoints.
+  **EBI InterProScan 5 and phmmer**, and **GTEx v8**, all via their public REST endpoints.

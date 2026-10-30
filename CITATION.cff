@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: Corvino
     given-names: Dillon
-    email: dcorvino@uni-bonn.de
+    website: "https://dilloncorvino.com"
     affiliation: "University of Bonn"
 abstract: >-
   In-silico structural and evolutionary characterisation of NKG7, testing the

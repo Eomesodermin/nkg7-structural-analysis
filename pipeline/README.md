@@ -9,7 +9,7 @@ Tier 0  triage      structural + sequence + genome + transcript + domain; monome
 Tier 1  oligomer    homo-oligomer C2–C6 × 3 predictors + reference-HOLE pore re-scan
    │  gate: STOP channel track (no confident oligomer; every confident model occluded)
    ▼
-(pivot) hetero-complex  NKG7 vs candidate partners (planned next — see docs/CAMPAIGN_PLAN.md)
+(pivot) hetero-complex  NKG7 vs ATP6AP2 / ORAI1 / STIM1 (inconclusive; positive control fails)
 ```
 
 ## Tier 0 — triage (`pipeline/tier0/`)
@@ -39,11 +39,22 @@ single method's membrane-oligomer failure mode.
 | `boltz_C{2..6}.yaml` | Boltz-2 input specs (N protein copies) — run with `boltz predict --use_msa_server --recycling_steps 3 --diffusion_samples 3 --no_kernels --output_format pdb` |
 | `chai_C{2..6}.fasta` | Chai-1 multi-record FASTAs — run with `chai-lab fold --msa-directory <cached> --no-use-esm-embeddings` |
 | `af3_monomer.json` + `af3_C{2..6}.json` | AlphaFold3 inputs — MSA once on the monomer, reused across orders |
-| `af3_build_cn.py` | Injects the monomer MSA (unpairedMsa/pairedMsa/templates) into the C2–C6 AF3 jsons |
-| `hole_scan.py` | Reference-HOLE pore scan (mdahole2/MDAnalysis) along each assembly's symmetry axis; reports min pore radius |
+| `af3_build_cn.py` | Injects the monomer MSA (unpairedMsa/pairedMsa/templates) into the C2–C6 AF3 jsons (`--af-out`, `--out-dir`) |
+| `hole_scan.py` | Reference-HOLE pore scan (mdahole2/MDAnalysis) along each assembly's symmetry axis; reports min pore radius (`--models-dir`, `--out-dir`, `--hole-exe`) |
 
-Each predictor ran its full C2–C6 sweep as a single A40 GPU job on marvin, to keep the
-cluster footprint low (a binder-design campaign shared the account/queue).
+Each predictor ran its full C2–C6 sweep as a single A40 GPU job.
 
 Scoring: interface confidence = **ipTM** (best model per stoichiometry). Symmetry = chain-centroid
 radial/angular CV. Pore = minimum HOLE radius (water needs ~1.15 Å, dehydrated Na⁺ ~1.0 Å).
+
+## Hetero-complex screen (`pipeline/hetero/`)
+
+See [`hetero/README.md`](hetero/README.md) for the partner inputs and commands.
+
+## Run order
+
+1. Tier 0: follow the notes listed in [`tier0/README.md`](tier0/README.md).
+2. Tier 1: run each predictor on its inputs above. For AlphaFold3, run the monomer data
+   pipeline first, then `af3_build_cn.py`, then inference for C2–C6.
+3. Pore scan: `python tier1/hole_scan.py --models-dir <models> --out-dir <out>`.
+4. Hetero-complex: run the three predictors on the inputs in `hetero/`.
