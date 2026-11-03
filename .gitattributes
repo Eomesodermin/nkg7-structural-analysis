@@ -1,0 +1,2 @@
+# Rendered reports are generated output, not source code
+reports/*.html linguist-generated=true
