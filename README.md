@@ -106,6 +106,9 @@ conda activate nkg7-structure
 python pipeline/tier1/hole_scan.py --models-dir results/tier1_models --out-dir hole_out
 ```
 
+The helper functions (symmetry-axis detection, pore verdict, AlphaFold3 input builder) have unit
+tests that run without HOLE or a GPU: `pip install pytest numpy MDAnalysis && pytest`.
+
 The scan re-runs reference HOLE on the 15 committed Tier-1 models. It needs the `hole` binary on
 `PATH` (or `--hole-exe`), and its output corresponds to
 [`reports/data/hole_results.json`](reports/data/hole_results.json). Regenerating the models

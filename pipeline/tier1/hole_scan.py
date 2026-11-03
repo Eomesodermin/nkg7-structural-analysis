@@ -21,7 +21,6 @@ import warnings
 
 import MDAnalysis as mda
 import numpy as np
-from mdahole2.analysis.hole import HoleAnalysis
 
 WATER_RADIUS = 1.15  # A
 NA_DEHYDRATED_RADIUS = 1.0  # A
@@ -56,6 +55,8 @@ def symmetry_axis(universe):
 
 def scan_model(path, hole_exe, out_dir):
     """Run HOLE on one model and return its summary dict."""
+    from mdahole2.analysis.hole import HoleAnalysis  # imported here so the helpers work without HOLE installed
+
     universe = mda.Universe(path)
     centre, axis = symmetry_axis(universe)
     analysis = HoleAnalysis(universe, executable=hole_exe, cpoint=centre, cvect=axis)
