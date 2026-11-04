@@ -1,6 +1,7 @@
 # NKG7 structural analysis: is NKG7 an ion channel?
 
 [![CI](https://github.com/Eomesodermin/nkg7-structural-analysis/actions/workflows/ci.yml/badge.svg)](https://github.com/Eomesodermin/nkg7-structural-analysis/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23948740.svg)](https://doi.org/10.5281/zenodo.23948740)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 An in-silico test of whether **NKG7**, a four-transmembrane granule protein of cytotoxic
